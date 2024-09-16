@@ -1,0 +1,22 @@
+# номер 1
+int_var = 10
+float_var = 11.2
+str_var = "bob"
+list_var = ["banana", "naggets"]
+tuple_var = (12, "kartoshkafree")
+dict_var = {"gender": "male", "age": 20}
+set_var = {1, 2, 3, 52,}
+bool_var = "true"
+print(str_var,float_var, int_var, list_var, tuple_var, dict_var, set_var, bool_var)
+№ номер 2
+name = "maxim"
+age = 17
+average_grade = 4.5
+favorite_movies = ["Тачки", "Осадки в виде фрикаделек", "Американский психопат"]
+personal_info = ("Poletaev", "KAIT20", 4.5)
+Skills = {"Русский": "профессиональный уровень владения",
+    "Английский": "ниже базового", "Java": "базовый"}
+visited_countries = {"Туция", "Болгария", "Египед"}
+has_driver_license = False
+print(name, age, average_grade, favorite_movies, personal_info, Skills, visited_countries, has_driver_license)
+
