@@ -8,7 +8,7 @@ dict_var = {"gender": "male", "age": 20}
 set_var = {1, 2, 3, 52,}
 bool_var = "true"
 print(str_var,float_var, int_var, list_var, tuple_var, dict_var, set_var, bool_var)
-№ номер 2
+# номер 2
 name = "maxim"
 age = 17
 average_grade = 4.5
@@ -19,4 +19,9 @@ Skills = {"Русский": "профессиональный уровень в�
 visited_countries = {"Туция", "Болгария", "Египед"}
 has_driver_license = False
 print(name, age, average_grade, favorite_movies, personal_info, Skills, visited_countries, has_driver_license)
-
+# номер 3
+name_processor = "Intel core i7-12700K"
+RAM_value = 32
+internet_speed = (82.38, 83.54)
+state = ["Intel core i7-12700k", 32, 82.38, 83.54]
+print (state)
