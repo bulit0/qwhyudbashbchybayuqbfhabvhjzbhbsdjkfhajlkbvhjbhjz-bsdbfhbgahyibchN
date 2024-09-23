@@ -1,0 +1,40 @@
+# ex 1 
+phrase = "Programming is fun!"
+substring = phrase[0]
+print(substring)
+substring = phrase[14]
+print(substring)
+substring = phrase[18]
+print(substring)
+#ex 2
+numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+sublist = numbers[2]
+print(sublist)
+sublist = numbers[-1]
+print(sublist)
+sublist = numbers[4]
+print(sublist)
+#ex 3 
+cities = ("New York", "London", "Paris", "Tokyo", "Sydney")
+substring = cities[1]
+print(substring)
+substring = cities[2]
+print(substring)
+substring = cities[-5]
+print(substring)
+#ex 4 
+quote = "The quick brown fox jumps over the lazy dog"
+substring = quote[0:6]
+print(substring)
+substring = quote[10:20]
+print(substring)
+substring = quote[::2]
+print(substring)
+substring = quote[::-1]
+print(substring)
+#ex 5 
+numbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+sublist = numbers[0:4]
+print(sublist)
+sublist = numbers[5:9]
+print(sublist)
