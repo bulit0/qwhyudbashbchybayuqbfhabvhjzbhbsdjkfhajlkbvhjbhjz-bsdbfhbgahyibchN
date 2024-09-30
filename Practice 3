@@ -38,3 +38,7 @@ sublist = numbers[0:4]
 print(sublist)
 sublist = numbers[5:9]
 print(sublist)
+sublist = numbers[::2]
+print(sublist)
+sublist = numbers[::-1]
+print(sublist)
