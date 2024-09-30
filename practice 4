@@ -3,3 +3,8 @@ My_age = int(input("Введите свой возраст: "))
 Friend_age = int(input("Введите возраст друга: "))
 summ_age = (My_age + Friend_age)
 print("Сумма ваших возрастов:", summ_age)
+# ex2
+My_age = int(input("Введите свой возраст: "))
+Friend_age = int(input("Введите возраст друга: "))
+summ_age = (My_age + Friend_age)
+print("Сумма ваших возрастов:", summ_age)
