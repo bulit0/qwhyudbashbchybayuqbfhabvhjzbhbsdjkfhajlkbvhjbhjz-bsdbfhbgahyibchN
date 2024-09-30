@@ -8,3 +8,8 @@ My_age = int(input("Введите свой возраст: "))
 Friend_age = int(input("Введите возраст друга: "))
 summ_age = (My_age + Friend_age)
 print("Сумма ваших возрастов:", summ_age)
+# ex3
+soup = "Суп"
+pasta = "Паста"
+desert = "Десерт"
+print("Меню:\n1. Суп\n2. Паста\n3. Десерт")
