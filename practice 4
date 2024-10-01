@@ -4,10 +4,7 @@ Friend_age = int(input("Введите возраст друга: "))
 summ_age = (My_age + Friend_age)
 print("Сумма ваших возрастов:", summ_age)
 # ex2
-My_age = int(input("Введите свой возраст: "))
-Friend_age = int(input("Введите возраст друга: "))
-summ_age = (My_age + Friend_age)
-print("Сумма ваших возрастов:", summ_age)
+
 # ex3
 soup = "Суп"
 pasta = "Паста"
@@ -15,3 +12,6 @@ desert = "Десерт"
 print("Меню:\n1. Суп\n2. Паста\n3. Десерт")
 # ex4 
 print("*****\n*****\n*****")
+# ex5 
+x = int(input("Число:"))
+print(f"{x-3} {x-2} {x-3}\n{x}\n{x+3} {x+2} {x+1}")
