@@ -14,3 +14,32 @@ elif price >1000 and price <5000:
     print("скидка 5%")
 elif price >5000:
     print("скидка 10%")
+# ex3
+num1 = int(input("Введите первое число"))
+num2 = int(input("Введите второе число"))
+operation = str(input("Введите операцию:"))
+if operation == '+':
+    print(num1 + num2)
+elif operation == '-':
+    print(num1 - num2)
+elif operation == '*':
+    print(num1 * num2)
+elif operation == '/':
+    print(num1 / num2)
+else:
+    print("Неверная операция")
+# ex4 
+num = int(input("Введите число:"))
+if num % 2 == 0 and num % 10 == 2  or num % 10 == 6:
+    print("True")
+else:
+    print("False")
+# ex5
+correct_password = "qwerty"
+password = input("Введите пароль:")
+if  password == correct_password:
+    print("Доступ разрешен")
+else:
+    print("Неверный пароль")
+
+
