@@ -1,0 +1,16 @@
+# ex1
+age = int(input("Введите ваш возраст:"))
+if age < 18:
+    print("Вы несовершеннолетний")
+elif age >18 and age <65:
+    print("Вы трудоспособный человек")
+elif age >65:
+    print("Вы пенсионер")
+# ex2 
+price = int(input("Введите цену:"))
+if price < 1000:
+    print("скидка не предоставляется")
+elif price >1000 and price <5000:
+    print("скидка 5%")
+elif price >5000:
+    print("скидка 10%")
