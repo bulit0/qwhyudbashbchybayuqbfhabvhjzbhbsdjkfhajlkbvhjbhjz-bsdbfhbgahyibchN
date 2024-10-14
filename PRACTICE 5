@@ -41,5 +41,18 @@ if  password == correct_password:
     print("Доступ разрешен")
 else:
     print("Неверный пароль")
+# ex6 
+blue = ("B1" or "B3" or "B7" or "C1" or "C4" or "C5" or "C6" or "C8" or "C9")
+green = ("B2" or "B4" or "B6" or "B8" or "C2" or "C7" or "C10" or "C11")
+gray = ("B5" or "C3" or "C12")
+coordinate = input("Введите координаты:")
+if  coordinate == blue:
+    print("В данном квадрате обитает синий попугай")
+elif coordinate == green:
+    print("В данном квадрате обитает зеленый попугай")
+elif coordinate == gray:
+    print("Пустой, в нем никто не сидит")
+else: 
+    print("Таких кординатов нет")
 
 
