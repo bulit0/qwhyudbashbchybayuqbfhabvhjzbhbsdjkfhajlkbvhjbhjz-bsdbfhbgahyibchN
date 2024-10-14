@@ -85,7 +85,22 @@ elif "ключ" in inventory:
     print("У вас нет ключа, вы не можете открыть дверь.")
 elif "фонарь" in inventory:
     print("У вас нет фонаря, слишком темно, чтобы пройти.")
-    
+# ex10
+king = "Enemies are coming! Are the archers ready?"
+warrior = "For the Alliance!"
+magician = "The spell is ready."
+if "?" in king and "!" in king and "." in king:
+    print("Знаки есть во фразе")
+else:
+    print("Знаков нет во фразе")
+if "?" in warrior and "!" in warrior and "." in warrior:
+    print("Знаки есть во фразе")
+else:
+    print("Знаков нет во фразе")
+if "?" in magician and "!" in magician and "." in magician:
+    print("знаки есть во фразе")
+else:
+    print("Знаков нет во фразе")    
 
     
     
