@@ -1,0 +1,11 @@
+# ex1 
+byte = int(input("Введите количество байтов"))
+bite = byte * 8
+print(bite)
+# ex2
+C = int(input("Введите количество страниц"))
+S = int(input("Введите количество строк"))
+N = int(input("Введите количество символов"))
+all = C * S * N
+Weight = all / 1024
+print(Weight)
