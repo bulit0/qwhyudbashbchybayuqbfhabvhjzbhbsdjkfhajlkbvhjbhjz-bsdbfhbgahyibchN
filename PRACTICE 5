@@ -89,18 +89,18 @@ elif "фонарь" not in inventory:
 king = "Enemies are coming! Are the archers ready?"
 warrior = "For the Alliance!"
 magician = "The spell is ready."
-if "?" in king and "!" in king and "." in king:
-    print("Знаки есть во фразе")
+if "?" in king or "!" in king or "." in king:
+    print("True")
 else:
-    print("Знаков нет во фразе")
-if "?" in warrior and "!" in warrior and "." in warrior:
-    print("Знаки есть во фразе")
+    print("False")
+if "?" in warrior or "!" in warrior or "." in warrior:
+    print("True")
 else:
-    print("Знаков нет во фразе")
-if "?" in magician and "!" in magician and "." in magician:
-    print("знаки есть во фразе")
+    print("False")
+if "?" in magician or "!" in magician or "." in magician:
+    print("True")
 else:
-    print("Знаков нет во фразе")    
+    print("False") 
 
     
     
