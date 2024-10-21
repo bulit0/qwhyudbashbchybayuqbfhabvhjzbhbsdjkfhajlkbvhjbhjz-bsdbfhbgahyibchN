@@ -1,3 +1,10 @@
 # ex1
 minute = 90
 print(f"{90 // 60}\n{90 % 60}")
+# ex2
+a = int(input("Введите число"))
+b = int(input("Введите число"))
+c = int(input("Введите число"))
+s = (a + b + c)/2
+x=(s*(s - a)*(s - b)*(s - c))** 0.5
+print(x)
