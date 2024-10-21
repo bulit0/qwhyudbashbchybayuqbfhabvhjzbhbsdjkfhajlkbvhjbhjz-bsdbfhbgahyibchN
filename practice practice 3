@@ -1,7 +1,16 @@
 # ex1
 minute = 90
 print(f"{90 // 60}\n{90 % 60}")
-
+# ex2
+a = 8 
+b = 10
+sleep = int(input("Сколько спит Аня:"))
+if sleep >= a and sleep < b:
+    print("Это нормально")
+elif sleep < a:
+    print("Недосып")
+elif sleep > b:
+    print("Пересып")
 # ex3
 a = int(input("Введите число"))
 b = int(input("Введите число"))
