@@ -18,3 +18,12 @@ c = int(input("Введите число"))
 s = (a + b + c)/2
 x=(s*(s - a)*(s - b)*(s - c))** 0.5
 print(x)
+
+# ex5
+n = int(input("Введиче число"))
+if n==1:
+    print(n, "Программист")
+elif n>=2 and n<=4:
+    print(n, "Программиста")
+elif n>=5:
+    print(n, "Программистов")
