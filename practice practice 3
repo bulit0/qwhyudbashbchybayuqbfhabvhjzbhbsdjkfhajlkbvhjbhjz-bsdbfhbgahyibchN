@@ -1,7 +1,8 @@
 # ex1
 minute = 90
 print(f"{90 // 60}\n{90 % 60}")
-# ex2
+
+# ex3
 a = int(input("Введите число"))
 b = int(input("Введите число"))
 c = int(input("Введите число"))
