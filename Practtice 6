@@ -1,3 +1,34 @@
+# ex1
 names = ["Richard", "Igor", "Jonathan", "Alice", "Mary", "Bonnie"]
 for i in names:
-    print('Hello', names)
+    print('Hello', i, '!')
+# ex2
+phrase = "I'm learning cycles."
+
+for i in range(10):
+    print(phrase)
+# ex3
+stations = ["Малиновка", "Рябиновка", "Суслово", "Дрожжино", "Звягино"]
+for ostanovka in stations:
+    if ostanovka == stations[-1]:
+        print(f'Поезд на станции: {ostanovka} Конечная!')
+    else:
+        print(f"Поезд на станции: {ostanovka}")
+# ex4 
+shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones"]
+
+for i in shop:
+    if i == "Laptop":
+        print("I'm bying this")
+    else:
+        print("I don't need it")
+# ex5
+tasks = ["Сдать проект (Важная)", "Сходить в магазин", "Позвонить врачу (Важная)",
+"Убраться в комнате", "Подготовить отчёт"]
+
+for index, task in enumerate(tasks, start=1):
+    if "Важная" in tasks:
+        print(f"{index}: {task} !")
+    else:
+        print(f"{index}: {task}")
+
