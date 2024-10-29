@@ -54,3 +54,19 @@ while i < 3:
         print("завершить программу")
     else:
         print("Неизвестная команда! Попробуйте снова.")
+# ex9 
+while True:
+    count = int(input("Введите число от 1 до 9:"))
+    if count >= 1 and count <=9:
+        i = 0
+        num = 0
+        while i <10:
+            i +=1
+            num = count
+            num *= i
+            print(f"{count} x {i} = {num}")
+            break
+    else:
+        print("Число вне диапазона.Попробуйте снова.")
+# ex10
+
