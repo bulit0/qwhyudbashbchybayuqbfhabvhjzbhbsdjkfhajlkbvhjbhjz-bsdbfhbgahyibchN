@@ -32,7 +32,12 @@ for index, task in enumerate(tasks, start=1):
     else:
         print(f"{index}: {task}")
 # ex6
-
+number = int(input("Введите количество чисел:"))
+i = 0
+for n in range(number):
+    num = int(input("Введите сами числа:"))
+    i += num
+print("Сумма чисел:", i)
 # ex7
 count = 0
 while count != 10:
