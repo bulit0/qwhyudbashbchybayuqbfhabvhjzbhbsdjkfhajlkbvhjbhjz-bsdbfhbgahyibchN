@@ -31,4 +31,26 @@ for index, task in enumerate(tasks, start=1):
         print(f"{index}: {task} !")
     else:
         print(f"{index}: {task}")
+# ex6
 
+# ex7
+count = 0
+while count != 10:
+    print(f"Цикл сработал {count} раз")
+    count += 1
+# ex8
+i = 0
+while i < 3:
+    n = input(">")
+    if n == "w":
+        print("персонаж идет вперед")
+    elif n == "a":
+        print("персонаж идет влево")
+    elif n == "s":
+        print("персонаж идет вниз")
+    elif n == "d":
+        print("персонаж идет вправо")
+    elif n == "stop":
+        print("завершить программу")
+    else:
+        print("Неизвестная команда! Попробуйте снова.")
