@@ -1,0 +1,27 @@
+# ex 1
+import subprocess
+
+class GameLauncher:
+    def __init__(self, name, path):
+        self.name = name
+        self.path = path
+
+    def run(self):
+        try:
+            print(f"Запуск {self.name}...")
+            subprocess.Popen(self.path)
+        except Exception as e:
+            print(f"Не удалось запустить {self.name}: {e}")
+
+# Список игр
+games = [
+    GameLauncher("Minecraft", r"C:\Games\Minecraft\MinecraftLauncher.exe"),
+    GameLauncher("GTA V", r"D:\Rockstar Games\GTA V\GTA5.exe"),
+    GameLauncher("Genshin Impact", r"C:\Games\Genshin Impact\GenshinImpact.exe"),
+    # Добавьте сюда другие игры
+]
+
+# Запуск всех игр
+for game in games:
+    game.run()
+# ex 2
